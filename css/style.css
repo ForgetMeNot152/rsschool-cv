@@ -10,6 +10,10 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  font-weight: 370;
+  line-height: 1.5;
+  color: #225252;
 }
 
 * {
@@ -17,16 +21,12 @@ body {
 }
 
 .header {
-  border: 1px solid red;
   font-weight: 500;
 }
 
-.main {
-  border: 1px solid red;
-}
-
 .footer {
-  border: 1px solid red;
+  background-color: #fbfbe7;
+  height: 80px;
 }
 
 .container {
@@ -41,6 +41,7 @@ body {
   text-decoration: none;
   padding: 0 20px;
   white-space: nowrap;
+  color: #2f4f4f;
 }
 
 .nav-link:hover {
@@ -54,6 +55,8 @@ body {
   align-items: center;
   list-style-type: none;
   list-style: none;
+  height: 80px;
+  background-color: #fbfbe7;
 }
 
 .github-link {
@@ -69,6 +72,43 @@ body {
   text-decoration: none;
   transition: 0.3s;
 }
+
 .project-link:hover {
   color: #5488af;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  padding: 50px;
+  color: #225252;
+}
+
+.profile-class {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #5488af;
+}
+
+.footer-link:hover {
+  color: #225252;
+}
+
+.conteiner-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

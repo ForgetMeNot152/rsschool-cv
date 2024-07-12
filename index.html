@@ -21,41 +21,35 @@
             <li class="nav-item">
               <a href="#Contacts" class="nav-link">Contacts</a>
             </li>
-            <!-- вставить ссылку-->
             <li class="nav-item">
               <a href="#Prifile" class="nav-link">Profile</a>
             </li>
-            <!-- вставить ссылку-->
             <li class="nav-item">
               <a href="#About me" class="nav-link">About me</a>
             </li>
-            <!-- вставить ссылку-->
             <li class="nav-item">
               <a href="#Skills" class="nav-link">Skills</a>
             </li>
-            <!-- вставить ссылку-->
             <li class="nav-item">
               <a href="#Projects" class="nav-link">Projects </a>
             </li>
-            <!-- вставить ссылку-->
             <li class="nav-item">
               <a href="#Education" class="nav-link">Education </a>
             </li>
-            <!-- вставить ссылку-->
             <li class="nav-item"><a href="#Code" class="nav-link">Code </a></li>
-            <!-- вставить ссылку-->
           </ul>
         </nav>
       </div>
     </header>
     <main class="main">
-      <div class="conteiner">
-        <section class="section" id="Prifile">
-          <h1>Nikita Ekaterinin</h1>
-          <p>Junior front-end developer</p>
-        </section>
+      <section class="profile-class">
+        <img src="assets\img\avatar.png" alt="bob" width="300" />
+        <h1 class=".section-title">Nikita Ekaterinin</h1>
+        <h3>Junior front-end developer</h3>
+      </section>
+      <div class="conteiner main-container">
         <section class="section" id="About me">
-          <h2>About me</h2>
+          <h2 class=".section-title">About me</h2>
           <p>
             I am a junior front-end developer with a passion for coding. I have
             completed several training projects and now I would like to take
@@ -68,7 +62,7 @@
           </p>
         </section>
         <section class="section" id="Skills">
-          <h2>Skills</h2>
+          <h2 class=".section-title">Skills</h2>
           <ul>
             <li>knowledge of HTML, CSS and JavaScript</li>
             <li>experience working with popular frameworks (React, Angular)</li>
@@ -77,7 +71,7 @@
           </ul>
         </section>
         <section class="section" id="Projects">
-          <h2>Projects</h2>
+          <h2 class=".section-title">Projects</h2>
           <ul>
             <li>
               <a
@@ -98,19 +92,19 @@
           </ul>
         </section>
         <section class="section" id="Code">
-          <h2>Code</h2>
+          <h2 class=".section-title">Code</h2>
           <pre>
           <code>
             let message = "Hello World!";
             console.log(message);
-            let userName = prompt("Как вас зовут?");
-            console.log(`Привет, ${userName}!`);
-            alert("Спасибо за ответ!");
+            let userName = prompt("Whats your name?");
+            console.log(`Hello!, ${userName}!`);
+            alert("Thanx for answer!");
           </code>
         </pre>
         </section>
         <section class="section" id="Education">
-          <h2>Education</h2>
+          <h2 class=".section-title">Education</h2>
           <ul>
             <li>
               National Research Lobachevsky State University of Nizhny Novgorod
@@ -120,7 +114,7 @@
           </ul>
         </section>
         <section class="section" id="Contacts">
-          <h2>Contacts</h2>
+          <h2 class=".section-title">Contacts</h2>
           <ul>
             <li>Tel: +7-999-99-99</li>
             <li>Mail: nikitamks@yandex.ru</li>
@@ -140,7 +134,20 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="conteiner">footer</div>
+      <div class="conteiner-div">
+        <p>
+          &#936; 2024
+          <a class="footer-link" href="https://github.com/ForgetMeNot152"
+            >ForgetMeNot152</a
+          >
+        </p>
+        <a class="rs-element" href="https://rs.school/"
+          ><img
+            src="assets\img\rs-school-logo.svg"
+            alt="rsschool-logo"
+            width="200"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>
