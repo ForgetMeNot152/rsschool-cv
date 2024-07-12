@@ -62,6 +62,7 @@ body {
 .github-link {
   text-decoration: none;
   transition: 0.3s;
+  color: #2f4f4f;
 }
 
 .github-link:hover {
@@ -71,6 +72,8 @@ body {
 .project-link {
   text-decoration: none;
   transition: 0.3s;
+  color: #225252;
+  font-size: 20px;
 }
 
 .project-link:hover {
@@ -111,4 +114,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 50px;
+  font-size: 25px;
 }
