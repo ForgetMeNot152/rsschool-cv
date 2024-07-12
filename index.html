@@ -3,16 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test cv</title>
+    <title>My-CV</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="shortcut icon" href="assets\img\favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>This is my test <span style="color: blueviolet">CV</span></h1>
-    <p style="font-style: italic; font-family: Arial, Helvetica, sans-serif">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-      veritatis!
-    </p>
-    <p style="border: solid red; padding: 10px; margin-right: 350px">
-      Lorem ipsum dolor sit amet.
-    </p>
+    <header class="header">
+      <div class="conteiner">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#Contacts" class="nav-link">Contacts</a>
+            </li>
+            <!-- вставить ссылку-->
+            <li class="nav-item">
+              <a href="#Prifile" class="nav-link">Profile</a>
+            </li>
+            <!-- вставить ссылку-->
+            <li class="nav-item">
+              <a href="#About me" class="nav-link">About me</a>
+            </li>
+            <!-- вставить ссылку-->
+            <li class="nav-item">
+              <a href="#Skills" class="nav-link">Skills</a>
+            </li>
+            <!-- вставить ссылку-->
+            <li class="nav-item">
+              <a href="#Projects" class="nav-link">Projects </a>
+            </li>
+            <!-- вставить ссылку-->
+            <li class="nav-item">
+              <a href="#Education" class="nav-link">Education </a>
+            </li>
+            <!-- вставить ссылку-->
+            <li class="nav-item"><a href="#Code" class="nav-link">Code </a></li>
+            <!-- вставить ссылку-->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="conteiner">
+        <section class="section" id="Prifile">
+          <h1>Nikita Ekaterinin</h1>
+          <p>Junior front-end developer</p>
+        </section>
+        <section class="section" id="About me">
+          <h2>About me</h2>
+          <p>
+            I am a junior front-end developer with a passion for coding. I have
+            completed several training projects and now I would like to take
+            part in the creation of a real JavaScript project. My goal is to
+            learn pure JavaScript at a good level and master the React library.
+            I will be glad to join the creation of open source projects. I would
+            like to work under the guidance of an experienced developer to gain
+            practical experience. I am proficient in HTML, CSS, JavaScript and
+            React. I also have basic knowledge of Node.js and Git.
+          </p>
+        </section>
+        <section class="section" id="Skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>knowledge of HTML, CSS and JavaScript</li>
+            <li>experience working with popular frameworks (React, Angular)</li>
+            <li>understanding of the principles of REST API operation</li>
+            <li>skills in working with version control systems (Git)</li>
+          </ul>
+        </section>
+        <section class="section" id="Projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a
+                class="project-link"
+                href="https://forgetmenot152.github.io/rsschool-cv/cv"
+                target="_blank"
+                >First test cv</a
+              >
+            </li>
+            <li>
+              <a
+                class="project-link"
+                href="https://ForgetMeNot152.github.io/rsschool-cv/"
+                target="_blank"
+                >Second test CV</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="Code">
+          <h2>Code</h2>
+          <pre>
+          <code>
+            let message = "Hello World!";
+            console.log(message);
+            let userName = prompt("Как вас зовут?");
+            console.log(`Привет, ${userName}!`);
+            alert("Спасибо за ответ!");
+          </code>
+        </pre>
+        </section>
+        <section class="section" id="Education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              National Research Lobachevsky State University of Nizhny Novgorod
+            </li>
+            <li>JavaScript / Front-end Course Pre-school</li>
+            <li>English: А2 Pre-Intermediate</li>
+          </ul>
+        </section>
+        <section class="section" id="Contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Tel: +7-999-99-99</li>
+            <li>Mail: nikitamks@yandex.ru</li>
+            <li>Discord: #ForgetMeNot152</li>
+            <li>Location: Nizhny Novgorod</li>
+            <li>
+              Github:
+              <a
+                class="github-link"
+                href="https://github.com/ForgetMeNot152"
+                target="_blank"
+                >ForgetMeNot152</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="conteiner">footer</div>
+    </footer>
   </body>
 </html>
